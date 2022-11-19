@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/purple_200"
+    android:stretchColumns="1"
+    >
+    <TableRow
+        android:id="@+id/tittleRowId"
+        android:layout_marginTop="20dp"
+
+        >
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:layout_span="4"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="Student Details"
+            />
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/headerd"
+        android:background="#FF8F00"
+
+
+        >
+        <TextView
+            android:layout_height="20sp"
+            android:textSize="16sp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Id"
+            />
+        <TextView
+            android:layout_height="20sp"
+            android:textSize="16sp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Name"
+            /><TextView
+            android:layout_height="20sp"
+            android:textSize="16sp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="GPA"
+            />
+        <TextView
+            android:layout_height="20sp"
+            android:textSize="16sp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Dob"
+            />
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/headerd2"
+        android:background="#F9A825"
+
+
+        >
+        <TextView
+            android:layout_height="20sp"
+            android:textSize="16sp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Id"
+            />
+        <TextView
+            android:layout_height="20sp"
+            android:textSize="16sp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Name"
+            /><TextView
+            android:layout_height="20sp"
+            android:textSize="16sp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="GPA"
+            />
+        <TextView
+            android:layout_height="20sp"
+            android:textSize="16sp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Dob"
+            />
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/headerd3"
+        android:background="#00838F"
+
+
+        >
+        <TextView
+            android:layout_height="20sp"
+            android:textSize="16sp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Id"
+            />
+        <TextView
+            android:layout_height="20sp"
+            android:textSize="16sp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Name"
+            /><TextView
+            android:layout_height="20sp"
+            android:textSize="16sp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="GPA"
+            />
+        <TextView
+            android:layout_height="20sp"
+            android:textSize="16sp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Dob"
+            />
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/headerd4"
+        android:background="#1565C0"
+
+
+        >
+        <TextView
+            android:layout_height="20sp"
+            android:textSize="16sp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Id"
+            />
+        <TextView
+            android:layout_height="20sp"
+            android:textSize="16sp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Name"
+            /><TextView
+            android:layout_height="20sp"
+            android:textSize="16sp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="GPA"
+            />
+        <TextView
+            android:layout_height="20sp"
+            android:textSize="16sp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Dob"
+            />
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/buttonTR">
+        <Button
+            android:layout_column="2"
+            android:text="Submit"
+            android:textSize="10dp"
+            android:textStyle="bold"
+
+            />
+        <Button
+            android:layout_column="3"
+            android:text="Reset"
+            android:textSize="10dp"
+            android:textStyle="bold"
+
+            />
+
+
+    </TableRow>
+
+</TableLayout>
